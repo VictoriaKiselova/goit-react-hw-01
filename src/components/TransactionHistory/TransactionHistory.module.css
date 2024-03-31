@@ -1,0 +1,35 @@
+.tableContainer {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.titleBox {
+  background-color: black;
+  color: #fafafa;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 44px;
+  letter-spacing: 0.02em;
+}
+.title {
+  padding: 10px;
+  width: calc(100% / 3);
+  border: 1px solid black;
+}
+.infoTransaction {
+  background-color: #fafafa;
+  color: black;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 44px;
+  letter-spacing: 0.01em;
+}
+.colorItem:nth-child(2n) {
+  background-color: rgb(219, 219, 219);
+}
+.text {
+  padding: 8px 70px;
+  border: 1px solid black;
+}
+.centerText {
+  text-align: center;
+}
